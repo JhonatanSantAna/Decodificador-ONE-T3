@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: #E5E5E5;
+}
+section{
+    display: flex;
+    background-color: #F3F5FC;
+}
+main{
+    display: inline-block;
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #0A3871;  
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #0A3871;
+}
+
+.btnEncrypt{
+    background-color: #0A3871;
+    color: white;
+}
+
+.btnDecrypt{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+aside{
+    display: inline-block;
+}
+
+.modifiedText{
+    color: #495057;
+}
+
+.btnCopy{
+    background-color: white;
+    color: #0A3871;
+}
