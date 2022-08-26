@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body{
-    background-color: #D8DFE8;
+    background-color: #f3f5fc;
 }
 
 header{
@@ -23,87 +23,111 @@ header{
 .text{
     position: absolute;
     width: 680px;
-    height: 48px;
+    height: 580px;
     left: 240px;
     top: 168px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f3f5fc;
+    
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 23px;
     line-height: 150%;
     color: #0A3871;  
 }
 
 p{
-    display: flex;
-    position: absolute;
-    top: 845px;
-    left: 264px;
+    display: inline;
+    position: relative;
+    top: 770px;
+    left: 240px;
+
+
     
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
-    color: #0A3871;
+    color: #495057;
 }
 
 .btnEncrypt{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 24px;
-    gap: 8px;
+    align-items: center;    
     position: absolute;
+    border: none;
+    border-radius: 20px;
     
-    width: 328px;
-    height: 67px;
+    width: 330px;
+    height: 60px;
     left: 240px;
-    top: 885px;
+    top: 800px;
 
     background-color: #0A3871;
     color: white;
+    font-size: 19px;
+    justify-content: center;
+    
+    
 }
 
 .btnDecrypt{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 24px;
-    gap: 8px;
+    align-items: center;
     position: absolute;
+    border-radius: 20px;
+    border-color: #0A3871;
     
-    width: 328px;
-    height: 67px;
-    left: 590px;
-    top: 885px;
+    width: 330px;
+    height: 60px;
+    left: 600px;
+    top: 800px;
 
 
-    background-color: #D8DFE8;
+    background-color: #f3f5fc;
     color: #0A3871;
+    font-size: 19px;
+    justify-content: center;
 }
 
 .modifiedText{
     position: absolute;
+    padding: 10px;
+
     width: 400px;
-    height: 900px;
+    height: 840px;
     left: 1000px;
     top: 40px;
+
     color: #495057;
+    border: none;
+    border-radius: 20px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .btnCopy{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 24px;
-    gap: 8px;
+    align-items: center;
     position: absolute;
+    border-radius: 20px;
+    border-color: #0A3871;
     
-    width: 328px;
-    height: 67px;
-    left: 1032px;
-    top: 885px;
+    width: 330px;
+    height: 60px;
+    left: 1045px;
+    top: 800px;
 
     background-color: white;
     color: #0A3871;
+    font-size: 19px;
+    justify-content: center;
 }
