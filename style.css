@@ -23,7 +23,7 @@ header{
 .text{
     position: absolute;
     width: 680px;
-    height: 580px;
+    height: 530px;
     left: 240px;
     top: 168px;
     border-radius: 10px;
@@ -39,10 +39,10 @@ header{
     color: #0A3871;  
 }
 
-p{
-    display: inline;
-    position: relative;
-    top: 770px;
+.important{
+    display: flex;
+    position: absolute;
+    top: 720px;
     left: 240px;
 
 
@@ -64,7 +64,7 @@ p{
     width: 330px;
     height: 60px;
     left: 240px;
-    top: 800px;
+    top: 750px;
 
     background-color: #0A3871;
     color: white;
@@ -85,7 +85,7 @@ p{
     width: 330px;
     height: 60px;
     left: 600px;
-    top: 800px;
+    top: 750px;
 
 
     background-color: #f3f5fc;
@@ -99,7 +99,7 @@ p{
     padding: 10px;
 
     width: 400px;
-    height: 840px;
+    height: 790px;
     left: 1000px;
     top: 40px;
 
@@ -124,10 +124,36 @@ p{
     width: 330px;
     height: 60px;
     left: 1045px;
-    top: 800px;
+    top: 750px;
 
     background-color: white;
     color: #0A3871;
     font-size: 19px;
     justify-content: center;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    top: 880px;
+    padding-top: 20px;
+    justify-content: center;
+    width: 1440px;
+    border-top: 1px solid #0A3871;
+    
+
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #495057;
+}
+
+footer p{
+    padding: 12px 10px;
+}
+
+.linkImg{
+    width: 40px;
+    padding-right: 6px;
 }
