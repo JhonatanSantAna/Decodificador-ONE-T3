@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pr-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jsstyle.css">
 </head>
 <body>
-    <header>
-        <img src="./images/logo_alura.png" alt="Logotipo da Alura" class="logoAlura">
-        <a href="jsencryptor.html"><img src="./images/js.png" alt="Logotipo Jhonatan Sant'Ana" class="logoJS"></a>
-    </header>
     <main>
-        <textarea class="text" cols="30" rows="10" placeholder="digite seu texto"></textarea>
-        <p class="important">&#9432 Apenas letras minúsculas e sem acento.</p>
+        <input class="text" cols="30" rows="10" placeholder="digite seu texto">
+        <button class="btnPaste" onclick="paste()">Colar</button>
         <button class="btnEncrypt" onclick="encrypt()">Criptografar</button>
         <button class="btnDecrypt" onclick="decrypt()">Descriptografar</button>
     </main>
     <aside>
-        <textarea class="modifiedText" cols="30" rows="10"></textarea>
+        <input class="modifiedText" cols="30" rows="10">
         <button class="btnCopy" onclick="copy()">Copiar</button>
     </aside>
     <footer>
@@ -30,5 +26,4 @@
         <a href="https://wa.me/5522998485759"><img class="linkImg" src="./images/whatsapp.png" alt="Logotipo Whatsapp"></a>
     </footer>
 </body>
-<script src="script.js"></script>
 </html>

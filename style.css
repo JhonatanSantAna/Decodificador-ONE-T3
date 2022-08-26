@@ -4,21 +4,31 @@ body{
     background-color: #f3f5fc;
 }
 
-header{
+.logoAlura{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-
     position: absolute;
-    width: 120px;
-    height: 48px;
     left: 40px;
     top: 40px;
-
 }
 
+.logoJS{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 60px;
+    border-radius: 30px;
+    opacity: 60%;
+
+    transform: rotate(1080deg);
+    transition: 3s;
+}
+
+.logoJS:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+    transition: 200ms;
+}
 
 .text{
     position: absolute;
