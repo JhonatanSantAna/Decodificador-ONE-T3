@@ -21,3 +21,9 @@ function decrypt() {
         }
     }
 }
+
+function copy(){
+    document.querySelector(".modifiedText").select();
+    document.execCommand("copy");
+    document.querySelector(".modifiedText").value="Copiado!";
+}
