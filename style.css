@@ -1,24 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body{
-    background-color: #E5E5E5;
-}
-section{
-    display: flex;
-    background-color: #F3F5FC;
-}
-main{
-    display: inline-block;
+    background-color: #D8DFE8;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+
+}
+
+
 .text{
+    position: absolute;
+    width: 680px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
     font-family: 'Inter', sans-serif;
-    font-size: 23px;
+    font-style: normal;
     font-weight: 400;
+    font-size: 23px;
+    line-height: 150%;
     color: #0A3871;  
 }
 
 p{
+    display: flex;
+    position: absolute;
+    top: 845px;
+    left: 264px;
+    
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -26,24 +48,62 @@ p{
 }
 
 .btnEncrypt{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    
+    width: 328px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+
     background-color: #0A3871;
     color: white;
 }
 
 .btnDecrypt{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    
+    width: 328px;
+    height: 67px;
+    left: 590px;
+    top: 885px;
+
+
     background-color: #D8DFE8;
     color: #0A3871;
 }
 
-aside{
-    display: inline-block;
-}
-
 .modifiedText{
+    position: absolute;
+    width: 400px;
+    height: 900px;
+    left: 1000px;
+    top: 40px;
     color: #495057;
 }
 
 .btnCopy{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    
+    width: 328px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+
     background-color: white;
     color: #0A3871;
 }
