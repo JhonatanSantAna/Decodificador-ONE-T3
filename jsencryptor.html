@@ -9,21 +9,31 @@
     <link rel="stylesheet" href="jsstyle.css">
 </head>
 <body>
-    <main>
-        <input class="text" cols="30" rows="10" placeholder="digite seu texto">
-        <button class="btnPaste" onclick="paste()">Colar</button>
-        <button class="btnEncrypt" onclick="encrypt()">Criptografar</button>
-        <button class="btnDecrypt" onclick="decrypt()">Descriptografar</button>
-    </main>
-    <aside>
-        <input class="modifiedText" cols="30" rows="10">
-        <button class="btnCopy" onclick="copy()">Copiar</button>
-    </aside>
+    <header>
+        <img src="./images/js.png" alt="Logotipo Jhonatan Sant'Ana">
+        <p>Criptografia para suas mensagens</p>
+    </header>
+    <section>
+        <main>
+            <input class="text" cols="30" rows="10" placeholder="digite seu texto">
+            <section class="btnsMain">
+                <button class="btnPaste" onclick="paste()">Colar</button>
+                <button class="btnEncrypt" onclick="encrypt()">Criptografar</button>
+                <button class="btnDecrypt" onclick="decrypt()">Descriptografar</button>
+            </section>
+        </main>
+        <aside>
+            <input class="modifiedText" cols="30" rows="10">
+            <button class="btnCopy" onclick="copy()">Copiar</button>
+        </aside>
+    </section>
     <footer>
-        <p>&copy Desenvolvido por Jhonatan Sant'Ana</p>
-        <a href="https://github.com/JhonatanSantAna?tab=repositories"><img class="linkImg" src="./images/github.png" alt="Logotipo GitHub"></a>
-        <a href="https://bit.ly/3nul4jg"><img class="linkImg" src="./images/linkedin.png" alt="Logotipo Linkedin"></a>
-        <a href="https://wa.me/5522998485759"><img class="linkImg" src="./images/whatsapp.png" alt="Logotipo Whatsapp"></a>
+        <p>&copy 2022, Desenvolvido por Jhonatan Sant'Ana</p>
+        <section class="links">
+            <a href="https://github.com/JhonatanSantAna?tab=repositories"><img class="linkImg" src="./images/github.png" alt="Logotipo GitHub"></a>
+            <a href="https://bit.ly/3nul4jg"><img class="linkImg" src="./images/linkedin.png" alt="Logotipo Linkedin"></a>
+            <a href="https://wa.me/5522998485759"><img class="linkImg" src="./images/whatsapp.png" alt="Logotipo Whatsapp"></a>
+        </section>
     </footer>
 </body>
 </html>

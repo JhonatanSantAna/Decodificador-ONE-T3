@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    background: lightblue;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 760px;
+    max-width: 900px;
+}
+
+    header{
+        display: flex;
+        align-items: center;
+    }
+
+        header p{
+            width: 100%;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+    section{
+        border: none;
+        display: flex;
+        margin: 0 auto;
+    }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            padding: 5px;
+        }
+
+
+            .text{
+                border: none;
+                border-radius: 10px;
+                display: inline-block;
+                height: 400px;
+                width: 350px;
+                margin: 0 auto;
+                padding: 10px;
+                font-size: 18px;
+                
+            }
+
+            .btnsMain{
+                display: inline-block;
+                justify-content: space-evenly;
+                border: none;
+                padding: 5px 0;
+            }
+
+            .btnsMain button{
+                border: 1px solid black;
+                border-radius: 20px;
+                padding: 10px;
+                font-size: 16px;
+                height: 40px;
+                text-align: center;
+                font-weight: bold;
+                background: lightblue;
+            }
+
+
+            
+        aside{          
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px;
+        }
+        
+        .modifiedText{
+            border: none;
+            border-radius: 10px;
+            display: inline-block;
+            height: 400px;
+            width: 350px;
+            margin: 0 auto;
+            padding: 10px;
+            font-size: 18px;
+            
+        }
+        
+        .btnCopy{
+            margin-top: 5px;
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 16px;
+            height: 40px;
+            text-align: center;
+            font-weight: bold;
+            background: lightblue;
+        }
+
+
+    footer{
+        border-top: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+
+    }
+
+        footer p{
+            margin: 10px auto;
+        }
+
+        .linkImg{
+            width: 40px;
+            margin: 0 5px;
+        }
