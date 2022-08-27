@@ -11,6 +11,7 @@ body{
     top: 40px;
 }
 
+
 .logoJS{
     display: flex;
     position: absolute;
@@ -19,9 +20,15 @@ body{
     width: 60px;
     border-radius: 30px;
     opacity: 60%;
+    animation: logo 3s;
 
-    transform: rotate(1080deg);
-    transition: 3s;
+}
+
+@keyframes logo {
+    to{
+        transform: rotate(1080deg);
+    }
+    
 }
 
 .logoJS:hover{
