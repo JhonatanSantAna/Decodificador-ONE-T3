@@ -42,8 +42,8 @@ body{
             width: 60%;
         }
 
-
-            .text{
+        
+        .text{
                 background: none;
                 border: 2px solid rgb(0, 99, 133);
                 border-radius: 10px;
@@ -55,6 +55,9 @@ body{
                 font-size: 30px;
                 color:rgb(86, 255, 86);
                 resize: none;
+            }
+            .text:focus-visible{
+                outline: none;
             }
 
             .btnsMain{
@@ -110,6 +113,9 @@ body{
             font-size: 30px;
             resize: none;  
         }
+        .modifiedText:focus-visible{
+            outline: none;
+        }
         
         .btnCopy{
             border: none;
@@ -158,7 +164,7 @@ body{
 
 
 
-    @media (max-width:1080px) {
+    @media (max-width:650px) {
         body{
             min-width: 400px;
         }
@@ -176,7 +182,7 @@ body{
             display: flex;
             margin: 0;
             width: 80%;
-            height: 600px;
+            height: 450px;
             justify-content: center;
         }
 

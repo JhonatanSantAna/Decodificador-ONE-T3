@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="jsstyle.css">
 </head>
-<body>
+<body id="body">
     <header class="header">
     <p>Criptografia para suas mensagens</p>
     </header>
     <section class="encryption">
         <main class="main">
-            <textarea class="text" cols="30" rows="10" placeholder="digite seu texto"></textarea>
+            <textarea class="text" cols="30" rows="10" placeholder="Digite seu texto" autofocus></textarea>
             <section class="btnsMain">
-                <button class="btnPaste" onclick="paste()">Colar</button>
                 <button class="btnEncrypt" onclick="encrypt()">Encriptar</button>
                 <button class="btnDecrypt" onclick="decrypt()">Desencriptar</button>
             </section>
@@ -35,5 +34,5 @@
         </section>
     </footer>
 </body>
-<script src="./script.js"></script>
+<script src="./jsscript.js"></script>
 </html>
