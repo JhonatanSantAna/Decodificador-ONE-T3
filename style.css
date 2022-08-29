@@ -12,17 +12,20 @@ body{
 }
 
 
-.logoJS{
+.jsLink{
     display: flex;
+    flex-direction: column;
     position: absolute;
     top: 200px;
     left: 30px;
-    width: 60px;
+    width: 100px;
     border-radius: 30px;
     opacity: 60%;
     animation: logo 3s;
 
 }
+
+
 
 @keyframes logo {
     to{
