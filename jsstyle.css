@@ -40,6 +40,7 @@ body{
             margin-right: 15px;
             padding: 5px;
             width: 60%;
+            height: 600px;
         }
 
         
@@ -98,6 +99,7 @@ body{
             margin-left: 15px;
             padding: 5px;
             width: 35%;
+            height: 593px;
         }
         
         .modifiedText{
