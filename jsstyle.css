@@ -28,7 +28,7 @@ body{
 
         .encryption{
         display: flex;
-        padding: 0 5px;
+        padding: 0 5px 122px 5px;
     }
     
     
@@ -147,8 +147,6 @@ body{
         align-items: center;
         padding: 10px;
         width: 100%;
-        position: fixed;
-        bottom: 0;
     }
 
         .footer p{
